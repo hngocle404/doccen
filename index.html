@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Social Media Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: #f4f4f4;
+            padding: 10px;
+            box-sizing: border-box;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .content {
+            width: 60%;
+            padding: 10px;
+            box-sizing: border-box;
+            overflow-y: auto;
+            height: 100vh;
+        }
+
+        .content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .content::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        .content::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        .post {
+            background-color: #ffffff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .post h2 {
+            margin: 0 0 40px;
+            font-size: 18px;
+        }
+
+        .post p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .right-sidebar {
+            width: 30%;
+            background-color: #f4f4f4;
+            padding: 10px;
+            box-sizing: border-box;
+            height: 100vh;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <div class="container">
+
+
+
+
+
+
+        <div class="sidebar">
+            <h3 style="color: #46c4d4; font-size: 44px; text-align: left;">doccen</h3>
+            <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: #46c4d4; color: white; border: none; font-size: 16px;">Feed</button>
+            <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: #46c4d4 ; color: white; border: none; font-size: 16px;">Library</button>
+            <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: #46c4d4; color: white; border: none; font-size: 16px;">Community</button>
+            <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: #46c4d4; color: white; border: none; font-size: 16px;">My Dashboard</button>
+        </div>
+
+
+
+
+
+
+        <div class="content">
+            <div class="post">
+                <h2>Post Title 1</h2>
+                            <div style="text-align: center;">
+                                <img src="edu.jpg" alt="Post Thumbnail" style="width:50%; height:auto;">
+                            </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies magna ut nibh sodales.</p>
+            </div>
+            <div class="post">
+                <h2>Post Title 2</h2>
+                            <div style="text-align: center;">
+                                <img src="edu.jpg" alt="Post Thumbnail" style="width:50%; height:auto;">
+                            </div>
+                <p>Sed quis orci vel justo tincidunt sodales. Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Phasellus vehicula turpis a magna aliquam, eu aliquet libero tincidunt.</p>
+            </div>
+            <div class="post">
+                <h2>Post Title 3</h2>
+                            <div style="text-align: center;">
+                                <img src="edu.jpg" alt="Post Thumbnail" style="width:50%; height:auto;">
+                            </div>
+                <p>Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat. Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat. Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.</p>
+            </div>
+            <div class="post">
+                <h2>Post Title 4</h2>
+                <p>Aliquam erat volutpat. Fusce facilisis enim at lorem ultricies facilisis.</p>
+            </div>
+            <div class="post">
+                <h2>Post Title 5</h2>
+                <p>Curabitur euismod sem vel orci cursus, non suscipit elit dignissim. Etiam a neque quis urna consequat porttitor.</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="right-sidebar">
+            <h3>Recommended materials</h3>
+                <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: white; color: #555; border: none; font-size: 16px;">
+                    magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Phasellus vehicula turpis a magna aliquam, eu aliquet libero tincidunt.
+                </button>
+                            <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: white; color: #555; border: none; font-size: 16px;">
+                    magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Phasellus vehicula turpis a magna aliquam, eu aliquet libero tincidunt.
+                </button>
+                            <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: white; color: #555; border: none; font-size: 16px;">
+                    magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Phasellus vehicula turpis a magna aliquam, eu aliquet libero tincidunt.
+                </button>
+            <h3>Events</h3>
+                <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: white; color: #555; border: none; font-size: 16px;">
+                    magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Phasellus vehicula turpis a magna aliquam, eu aliquet libero tincidunt.
+                </button>
+                            <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: white; color: #555; border: none; font-size: 16px;">
+                    magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Phasellus vehicula turpis a magna aliquam, eu aliquet libero tincidunt.
+                </button>
+                            <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: white; color: #555; border: none; font-size: 16px;">
+                    magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Phasellus vehicula turpis a magna aliquam, eu aliquet libero tincidunt.
+                </button>
+            <h3>Who to follow</h3>
+                <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: white; color: #555; border: none; font-size: 16px;">
+                    magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Phasellus vehicula turpis a magna aliquam, eu aliquet libero tincidunt.
+                </button>
+                            <button style="width: 100%; padding: 10px; border-radius: 5px; text-align: left; margin: 5px 0; background-color: white; color: #555; border: none; font-size: 16px;">
+                    magna tincidunt. Ut tincidunt justo sed est volutpat.Nullam accumsan mi at ipsum fermentum, quis interdum magna tincidunt. Ut tincidunt justo sed est volutpat.Phasellus vehicula turpis a magna aliquam, eu aliquet libero tincidunt.
+                </button>
+        </div>
+
+
+
+
+
+
+        
+    </div>
+</body>
+</html>
